@@ -18,7 +18,14 @@ public class Yopeso {
         for(int j=arr.length-1;j>0;j--){
             for (int i=0;i<first;i++) {
                 lista.add(Math.min(arr[j],arr[i]) *(j-i) );
+            }{
+            for (int i=0;i<first;i++) {
+                lista.add(Math.min(arr[j],arr[i]) *(j-i) );
             }
+            first-=1;
+
+
+        }
             first-=1;
 
 
